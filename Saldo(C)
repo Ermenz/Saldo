@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define tamanhoVariavel 100
+
+typedef struct {
+  float saldo[6];
+  int soma = 0;
+  int i;
+
+}DadosInventimento;
+
+void informarSaldo(DadosInvestimento);
+
+
+void informarSaldo(DadosInvestimento){
+
+for ( i = 1; i <= 6; i++) {
+
+printf("------Informe o %dº saldo -----\n",  i);
+
+   printf("Digite o saldo %d:º", i);
+   scanf(%d, &saldo);
+
+soma+= soma + saldo;
+
+
+}
+
+
+}
+
+
+
+
+
+
+int main() {
+
+Soma = saldo1 + saldo2 +
+
+
+
+
+
+    return 0;
+}
